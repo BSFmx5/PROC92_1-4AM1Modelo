@@ -1,15 +1,15 @@
-> Why do I have a folder named ".expo" in my project?
+> ¿Por qué tengo una carpeta llamada ".expo" en mi proyecto?
 
-The ".expo" folder is created when an Expo project is started using "expo start" command.
+La carpeta ".expo" se crea cuando se inicia un proyecto Expo usando el comando "expo start".
 
-> What do the files contain?
+> ¿Qué contienen los archivos?
 
-- "devices.json": contains information about devices that have recently opened this project. This is used to populate the "Development sessions" list in your development builds.
-- "packager-info.json": contains port numbers and process PIDs that are used to serve the application to the mobile device/simulator.
-- "settings.json": contains the server configuration that is used to serve the application manifest.
+- "devices.json": contiene información sobre los dispositivos que han abierto recientemente este proyecto. Esto se usa para completar la lista de "Sesiones de desarrollo" en sus compilaciones de desarrollo.
+- "packager-info.json": contiene números de puerto y PID de proceso que se utilizan para entregar la aplicación al dispositivo móvil/simulador.
+- "settings.json": contiene la configuración del servidor que se utiliza para servir el manifiesto de la aplicación.
 
-> Should I commit the ".expo" folder?
+> ¿Debo confirmar la carpeta ".expo"?
 
-No, you should not share the ".expo" folder. It does not contain any information that is relevant for other developers working on the project, it is specific to your machine.
+No, no debe compartir la carpeta ".expo". No contiene ninguna información que sea relevante para otros desarrolladores que trabajan en el proyecto, es específica para su máquina.
 
-Upon project creation, the ".expo" folder is already added to your ".gitignore" file.
+Tras la creación del proyecto, la carpeta ".expo" ya está agregada a su archivo ".gitignore".
